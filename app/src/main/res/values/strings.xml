@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidQuiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="sporsmal"></string>
+    <string name="alt1"></string>
+    <string name="alt2"></string>
+    <string name="alt3"></string>
+    <string name="alt4"></string>
+    <string name="title_activity_resultat">Resultat</string>
+    <string name="resultat"></string>
+
+</resources>

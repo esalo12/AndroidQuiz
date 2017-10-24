@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="svar1">
+        <item>En app</item>
+        <item>En mobil telefon</item>
+        <item>En programsamling for mobiltelefon</item>
+        <item>En Starwars figur</item>
+    </string-array>
+    <string-array name="svar2">
+        <item>Symbian</item>
+        <item>PalmOS</item>
+        <item>Windows</item>
+        <item>Linux</item>
+    </string-array>
+    <string-array name="svar3">
+        <item>onCreate(), onPause()</item>
+        <item>onPause, onStop()</item>
+        <item>onPause(), onStop(), onDestroy()</item>
+        <item>onResume(), onStop(), onPause()</item>
+    </string-array>
+    <string-array name="svar4">
+        <item>onCreate(), onPause()</item>
+        <item>onResume(), onPause()</item>
+        <item>onStop(), onPause()</item>
+        <item>onPause(), onStop()</item>
+    </string-array>
+    <string-array name="svar5">
+        <item>onCreate(), onStart(), onResume()</item>
+        <item>onCreate(), onResume(), onStart()</item>
+        <item>onStart(), onCreate(), onResume()</item>
+        <item>onCreate(), onStart(), onPause()</item>
+    </string-array>
+    <string-array name="svar6">
+        <item>Det viste skjermbildet(layout)</item>
+        <item>Det som utfører handlinger på skjermbildet</item>
+        <item>Brukerens interaksjon med programmet</item>
+        <item>En AndroidManifest operasjon</item>
+    </string-array>
+    <string-array name="svar7">
+        <item>Deklarasjon av brukerlisensen</item>
+        <item>Deklarasjon av all informasjon om programmet</item>
+        <item>Deklarasjon av utseende på programmet</item>
+        <item>Deklarasjon av en Activity</item>
+    </string-array>
+    <string-array name="svar8">
+        <item>Med "Intent"</item>
+        <item>Med "sendMessage()"</item>
+        <item>Med "sendToTarget()"</item>
+        <item>Med "Broadcast"</item>
+    </string-array>
+    <string-array name="svar9">
+        <item>En del av lagringsmediet</item>
+        <item>En del av "Broadcast"</item>
+        <item>En tidsenhet i Android SDK</item>
+        <item>En del av en "Activity", som gir "flervindu funksjonalitet"</item>
+    </string-array>
+    <string-array name="svar10">
+        <item>styles.xml</item>
+        <item>AndroidManifest.xml</item>
+        <item>content_.xml</item>
+        <item>menu_.xml</item>
+    </string-array>
+    <integer-array name="fasit">
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+        <item>2</item>
+    </integer-array>
+</resources>

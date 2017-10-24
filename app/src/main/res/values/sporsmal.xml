@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sporsmalliste">
+        <item>Spørsmal 1: Hva er Android?</item>
+        <item>Spørsmal 2: Hvilken OS kernel er Android bygd på?</item>
+        <item>Spørsmal 3: Hva skjer i Livssyklusen til en "Activity", når man trykker på telefonens tilbake knapp?</item>
+        <item>Spørsmal 4: Hva skjer i livssyklusen i en "Activity", når en annen "Activity" kommer i forgrunnen?</item>
+        <item>Spørsmal 5: Hva skjer i livssyklusen, når en "Activity" starter?</item>
+        <item>Spørsmal 6: Hva er en "Activity"?</item>
+        <item>Spørsmal 7: Hva er i "AndroidManifest.xml?"</item>
+        <item>Spørsmal 8: Hvordan sender man informasjon mellom "Activities?"</item>
+        <item>Spørsmal 9: Hva er et "Fragment?"</item>
+        <item>Spørsmal 10: Hvor defenierer man "layouten" i en Activity?</item>
+    </string-array>
+</resources>

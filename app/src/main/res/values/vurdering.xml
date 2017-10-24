@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resultater">
+        <item>Sørgelig!</item>
+        <item>Greit nok, men du bør nok pusle mer med dette!</item>
+        <item>Du forstår mye, men du mangler det lille ekstra!</item>
+        <item>Dette behersker du godt!</item>
+        <item>Du er en Android Wizard! \nDette er resultatet av langt og hardt arbeid!</item>
+    </string-array>
+
+</resources>

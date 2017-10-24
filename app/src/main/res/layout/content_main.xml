@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/app"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#ced7c6"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="no.nord.androidquiz.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:text=""
+        android:id="@+id/sporsmal"/>
+
+    <RadioGroup android:id="@+id/radioGroupAlternativ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+        <RadioButton android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:text="@string/alt1"
+            android:id="@+id/valg1"
+            android:layout_gravity="right" />
+        <RadioButton android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:text="@string/alt2"
+            android:id="@+id/valg2"
+            android:layout_gravity="right" />
+        <RadioButton android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:text="@string/alt3"
+            android:id="@+id/valg3"
+            android:layout_gravity="right" />
+        <RadioButton android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:text="@string/alt4"
+            android:id="@+id/valg4"
+            android:layout_gravity="right" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/neste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:text="Neste" />
+
+</LinearLayout>
